@@ -106,3 +106,19 @@ img{
 	clear:both;
 	
 }
+
+#content img{
+	
+	height:60px;
+	
+}
+
+
+#tel{
+	
+	margin-left: 20%;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+
+}
