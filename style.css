@@ -86,3 +86,23 @@ img{
 	
 	
 }
+
+#ad{
+	
+	background-color:#ffde4d;
+	width: 65%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
+	border: 10px double orange;
+	font-size: 25px;
+	clear:both;
+	
+}
