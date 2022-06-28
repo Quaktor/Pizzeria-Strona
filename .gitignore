@@ -1,0 +1,11 @@
+*.zip
+*.rar
+*.jar
+*.log
+*.iml
+*.pyc
+.DS_Store
+*.cab
+*.msm
+*.msp
+*.msi
