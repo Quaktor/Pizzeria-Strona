@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Projekt</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </HEAD>
 <BODY lang="pl-PL">
 
@@ -19,9 +20,11 @@
 		<hr id="line">
 		
 
+		
+
 
 		<div id="nav">
-			U nas zamówisz pizzę z dowozem <br><br>
+			 U nas zamówisz pizzę z dowozem!
 
 			<a href="logo.png">Nasze logo</a>
 			<a href="kontakt.html"> Kontakt </a>
@@ -34,6 +37,7 @@
 			<br><br>
 			ul. Piracka 76, Gdańsk
 			<br>
+
 			<img src="zdjecie.png" alt="zdjęcie">
 		</div>
 
@@ -53,19 +57,20 @@
 
 		<div id="footer">
 			Oblicz koszt dostawy
-			<br><br>
-			<input type="checkbox">Jestem z Trójmiasta
-			<br><br>
-			albo
-			<br><br>
-			Podaj liczbę kilometrów od Trójmiasta (powyżej 30km poza Trójmiastem nie będzie dostawy):<input type="number" name="trasa"></td><br>
-			<input type="submit" value="Oblicz">
+			<span><input type="checkbox" id="check">Jestem z Trójmiasta</span>
+			
+			
+			<span>albo</span>
+			
+			Podaj liczbę kilometrów od Trójmiasta (powyżej 30km poza Trójmiastem nie będzie dostawy):<input type="number" name="trasa" id="trasa">
+			<input type="submit" value="Oblicz" onclick="dostawa()">
+		<div id="hide"></div>
 
 		</div>
 
-		<hr>
+		<div id="end">
 		Stronę internetową opracowali: Robert Inczewski, Ewelina Bondar, Paulina Gołąbiewska, Natalia Sobisz.
-
+	</div>
 	</div>
 </BODY>
 </HTML>
