@@ -6,25 +6,12 @@ body{
 	
 }
 
-#logo{
-	
-	
-	padding-top: 20px;
-	text-align:center;
-	
-}
 
 #logo{
 	
 	
 	padding-top: 20px;
 	text-align:center;
-	
-}
-
-img{
-	
-	height:500px;
 	
 }
 
@@ -79,11 +66,18 @@ img{
 	height:200px;
 	float:left;
 	border: 5px dotted orange;
+	
 	font-size: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	
+	
+}
+
+#content img{
+	
+	height:60px;
 	
 }
 
@@ -107,13 +101,6 @@ img{
 	
 }
 
-#content img{
-	
-	height:60px;
-	
-}
-
-
 #tel{
 	
 	margin-left: 20%;
@@ -122,6 +109,25 @@ img{
 	height: 50%;
 
 }
+
+
+#footer{
+	
+	
+	
+	height:300px;
+	width: 70%;
+	margin: 20px auto;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
+	gap: 20px;
+	
+}
+
 
 #end{
 	background-color: orange;
@@ -139,19 +145,14 @@ img{
 
 }
 
-#footer{
+
+
+
+
+
+
+img{
 	
-	
-	
-	height:300px;
-	width: 70%;
-	margin: 20px auto;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	flex-flow: column wrap;
-	gap: 20px;
+	height:500px;
 	
 }
